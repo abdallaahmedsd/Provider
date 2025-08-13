@@ -1,0 +1,10 @@
+@Provider_HostAddress = http://localhost:5192
+
+POST {{Provider_HostAddress}}/math/sum
+Accept: application/json
+Content-Type: application/json
+
+{
+  "number1": 5,
+  "number2": 7
+}
