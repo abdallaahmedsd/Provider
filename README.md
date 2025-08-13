@@ -2,10 +2,10 @@
 
 Simple ASP.NET Core Web API that accepts two numbers and returns their sum.
 
-## Endpoint
+## 🚀 Endpoint
 **POST** `/math/sum`
 
-### Request
+### 📌 Example Request
 ```json
 {
   "number1": 5,
@@ -13,7 +13,7 @@ Simple ASP.NET Core Web API that accepts two numbers and returns their sum.
 }
 ```
 
-### Response
+### 📌 Example Response
 ```json
 {
   "result": 12
